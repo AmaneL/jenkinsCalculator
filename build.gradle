@@ -5,6 +5,29 @@ apply plugin : 'findbugs'
 apply plugin : 'pmd'
 apply plugin : 'checkstyle'
 
+chekcstyle {
+	ignireFailures = true
+}
+
+findbugs {
+	ignoreFailures = true
+	findbugsTest.enabled = false
+	sourceSets = [sourceSets.main]
+	effort = "max"
+}
+
+pmd {
+	ignoreFailures = true
+	pmdTest.enabled = false
+	ruleSets = [
+	'java-basic',
+	'java-braces',
+	'java-clone',
+	'java-codesize',
+	'java-comments'
+	]
+}
+
 repositories {
 	mavenCentral()
 }
