@@ -25,7 +25,9 @@ pmd {
 	'java-braces',
 	'java-clone',
 	'java-codesize',
-	'java-comments'
+	'java-comments',
+	'java-controversial',
+	'java-coupling'
 	]
 }
 
