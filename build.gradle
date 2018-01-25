@@ -5,6 +5,10 @@ apply plugin : 'findbugs'
 apply plugin : 'pmd'
 apply plugin : 'checkstyle'
 
+checkstyle {
+	ignoreFailures = true
+	checkstyleTest.enabled = false
+}
 
 findbugs {
 	ignoreFailures = true
