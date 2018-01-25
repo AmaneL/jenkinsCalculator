@@ -6,7 +6,7 @@ apply plugin : 'pmd'
 apply plugin : 'checkstyle'
 
 chekcstyle {
-	ignireFailures = true
+	ignoreFailures = true
 }
 
 findbugs {
