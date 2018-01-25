@@ -1,7 +1,13 @@
 package com.tactfactory.jenkinsCalculator;
 
+/**
+ * Class Addition
+ * @author Amane
+ *
+ */
 public class Addition {
 
+	//value
 	protected int value = 0;
 	
 	/**

@@ -1,7 +1,15 @@
 package com.tactfactory.jenkinsCalculator;
 
+/**
+ * Class Divide
+ * @author Amane
+ *
+ */
 public class Divide {
 
+	/**
+	 * value
+	 */
 	protected int value;
 	
 	/**
