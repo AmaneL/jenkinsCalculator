@@ -7,7 +7,9 @@ package com.tactfactory.jenkinsCalculator;
  */
 public class Addition {
 
-	//value
+	/**
+	 * value
+	 */
 	protected int value = 0;
 	
 	/**
