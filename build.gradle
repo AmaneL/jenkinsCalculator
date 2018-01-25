@@ -7,7 +7,7 @@ apply plugin : 'checkstyle'
 
 checkstyle {
 	ignoreFailures = true
-	sourceSets = [sourceSets.main]
+	checkstyleTest.enabled = false
 }
 
 findbugs {
