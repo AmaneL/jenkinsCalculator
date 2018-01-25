@@ -1,2 +1,11 @@
 <module name="Checker">
+  <module name="TreeWalker">
+          <!-- your standard Checks that come with Checkstyle -->
+    <module name="UpperEll"/>
+    <module name="MethodLength"/>
+          <!-- your Check goes here -->
+    <module name="com.mycompany.checks.MethodLimitCheck">
+      <property name="max" value="45"/>
+    </module>
+  </module>
 </module>
